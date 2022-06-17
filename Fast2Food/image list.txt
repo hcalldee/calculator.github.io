@@ -1,0 +1,30 @@
+theme app sushi bar
+
+background
+https://img.freepik.com/free-photo/concept-tasty-food-with-sushi-rolls-white-background_185193-75532.jpg?w=2000
+
+favicon ico
+https://images-platform.99static.com//XSm5D9E3aPNiRik6x4PKpnoEZYg=/330x345:1658x1673/fit-in/500x500/99designs-contests-attachments/121/121413/attachment_121413412
+
+menu
+1 sashimi
+https://restaurantclicks.com/wp-content/uploads/2021/05/Sashimi.jpg
+
+2 Nigiri
+https://restaurantclicks.com/wp-content/uploads/2021/05/Nigiri.jpg
+
+3 Chirashi
+https://restaurantclicks.com/wp-content/uploads/2021/05/Chirashi.jpg
+
+4 maki
+https://restaurantclicks.com/wp-content/uploads/2021/05/Maki.jpg
+
+5 uramaki
+https://restaurantclicks.com/wp-content/uploads/2021/05/Uramaki.jpg
+
+6 temaki
+https://restaurantclicks.com/wp-content/uploads/2021/05/Temaki.jpg
+
+7 sushi rolls
+https://restaurantclicks.com/wp-content/uploads/2021/05/Sushi-Rolls.jpg
+

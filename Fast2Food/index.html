@@ -11,7 +11,7 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
+  <link rel="shortcut icon" href="images/sushi.ico" type="">
 
   <title> OishII </title>
 
@@ -54,35 +54,44 @@
               <div class="container-fluid">
                 <div id="food" class="row">
         
-                  <div class="col-4">
+                  <div class="col-sm-4 mb-2">
                     <div class="card" style="width: 15rem;">
                       <img class="card-img-top" src="https://restaurantclicks.com/wp-content/uploads/2021/05/Sashimi.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">Sashimi</h5>
-                        <p class="card-text">Sashimi is raw fish, served in long rectangular slices known as hira-zukuri.</p>
+                        <p id="sashimi"class="card-text collapse">Sashimi is raw fish, served in long rectangular slices known as hira-zukuri.</p>
                         <a href="#" class="btn btn-primary"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#sashimi" aria-expanded="false" aria-controls="collapseExample">
+                          Description
+                        </button>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-4">
+                  <div class="col-sm-4 mb-2">
                     <div class="card" style="width: 15rem;">
                       <img class="card-img-top" src="https://restaurantclicks.com/wp-content/uploads/2021/05/Nigiri.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">Nigiri</h5>
-                        <p class="card-text">Nigiri is long and thin so that you can eat it with your hands.</p>
+                        <p id="nigiri" class="card-text collapse">Nigiri is long and thin so that you can eat it with your hands.</p>
                         <a href="#" class="btn btn-primary"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#nigiri" aria-expanded="false" aria-controls="collapseExample">
+                          Description
+                        </button>
                       </div>
                     </div>
                   </div>
                   
-                  <div class="col-4">
+                  <div class="col-sm-4 mb-2">
                     <div class="card" style="width: 15rem;">
                       <img class="card-img-top" src="https://restaurantclicks.com/wp-content/uploads/2021/05/Chirashi.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">Chirashi</h5>
-                        <p class="card-text">You will be served a bowl of vinegared rice topped with raw fish slices.</p>
+                        <p id="chirasi" class="card-text collapse">You will be served a bowl of vinegared rice topped with raw fish slices.</p>
                         <a href="#" class="btn btn-primary"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#chirasi" aria-expanded="false" aria-controls="collapseExample">
+                          Description
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -103,35 +112,37 @@
         </div>
 
       </div>
-      <div class="modal-footer d-flex">
-        <div class="dropdown mr-auto">
-          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Menu Type
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Foods</a>
-            <a class="dropdown-item" href="#">Beverages</a>
-            <a class="dropdown-item" href="#">Snack's</a>
+      <div class="modal-footer d-flex justify-content-between">
+        
+          <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu Type
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Foods</a>
+              <a class="dropdown-item" href="#">Beverages</a>
+              <a class="dropdown-item" href="#">Snack's</a>
+            </div>
           </div>
-        </div>
-        <div class="slick mlr-auto">
-          <ol class="carousel-indicators">
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <div class="slick">
+            <a class="carousel-control-prev mr-3" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span class="fa fa-arrow-circle-left pt-1" aria-hidden="false"></span>
               <!-- <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span> -->
               <span class="sr-only">Previous</span>
             </a>
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="btn btn-secondary">Menu</li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="btn btn-secondary">Detail</li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="btn btn-secondary">Bills</li>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
               <span class="fa fa-arrow-circle-right pt-1" aria-hidden="false"></span>
               <!-- <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span> -->
               <span class="sr-only">Next</span>
             </a>
-          </ol>
-        </div>
-        <button type="button" class="btn btn-primary">Save Order</button>
+            <!-- <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol> -->
+          </div>
+          <button type="button" class="btn btn-primary">Save Order</button>
+        
       </div>
     </div>
   </div>
