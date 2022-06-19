@@ -29,10 +29,14 @@ function job(transcript) {
         readOut("deactivating");
         recog.stop();
     }else if(transcript.includes('humidity report')){
-        readOut("Amy here. Ready on Command Sir");
+        readOut("Openning Weather Forcast");
+        window.open("https://www.google.com/search?q=weather")
     }else if(transcript.includes('open youtube')){
         readOut("Openning Youtube sir");
         window.open("https://www.youtube.com")
+    }else if(transcript.includes('open google')){
+        readOut("Openning Youtube sir");
+        window.open("https://www.google.com")
     }else if(transcript.includes('open my github')){
         readOut("Openning your Github sir");
         window.open("https://github.com/hcalldee/")
